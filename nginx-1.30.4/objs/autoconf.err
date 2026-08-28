@@ -1,0 +1,27 @@
+
+
+----------------------------------------
+checking for gcc -pipe switch
+
+
+----------------------------------------
+checking for MaxmindDB library
+
+objs/autotest.c:4:10: fatal error: maxminddb.h: No such file or directory
+    4 | #include <maxminddb.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+----------
+
+#include <sys/types.h>
+
+#include <maxminddb.h>
+
+int main(void) {
+    MMDB_s mmdb;
+    return 0;
+}
+
+----------
+cc -o objs/autotest objs/autotest.c -lmaxminddb
+----------
