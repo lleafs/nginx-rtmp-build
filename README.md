@@ -1,7 +1,7 @@
 # Main README
 This build has only been used/tested to live stream with the rtmp module and to fetch ssl certificates.<br>
 <br>
-I used MSYS2 MINGW64, check out the bash script, it was put together after a few build fails->[build-nginx.sh](./nginx-1.30.4/build-nginx.sh).
+I used MSYS2 MINGW64, check out the bash script, it was put together after a few builds fails->[build-nginx.sh](./nginx-1.30.4/build-nginx.sh).<br>
 <br>
 nginx.exe can be found in "nginx-1.30.4\objs" folder and if you wish, you can add the executable to path inside environment variables by running (win+r) sysdm.cpl->advanced options<br>
 <br>
