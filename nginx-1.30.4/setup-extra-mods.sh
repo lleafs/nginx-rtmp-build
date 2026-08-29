@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Directorio base donde guardaremos los módulos
-BASE_DIR="/home/eabar"
+BASE_DIR="/home/lleafs"
 
 # Brotli module (Google)
 cd $BASE_DIR
