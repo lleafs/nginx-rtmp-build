@@ -10,4 +10,6 @@ Example:<br>
  access_log  /nginx-rtmp-build/logs/access.log;<br>
  error_log   /nginx-rtmp-build/logs/error.log debug;<br>
 <br>
-full nginx documentation can be found here: nginx-1.30.4/README.md<br>
+# Main README
+For full nginx documentation, see the [nginx-1.30.4 README](./nginx-1.30.4/README.md).
+
