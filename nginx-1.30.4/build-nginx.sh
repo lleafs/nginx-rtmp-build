@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PREFIX="C:/msys64/home/eabar/nginx-rtmp-build"
+PREFIX="C:/msys64/home/lleafs/nginx-rtmp-build"
 
 ./configure \
   --prefix=$PREFIX \
