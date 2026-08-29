@@ -4,4 +4,4 @@ nginx.exe can be found in "nginx-1.30.4\objs" folder and if you wish, you can ad
 <br>
 The nginx.conf needs to be created in "nginx-rtmp-build\conf" you can easily copy&paste nginx.conf.default and rename the duplicate to nginx.conf<br>
 <br>
-Directives in "nginx-rtmp-build\conf\nginx.conf" like location, access_log, error_log ssl_certificate, ssl_certificate_key that need a path to point to a directory or a file you must use / forward slash.
+Directives in "nginx-rtmp-build\conf\nginx.conf" like location, access_log, error_log, ssl_certificate, ssl_certificate_key that need a path to point to a directory or a file you must use / forward slash.
