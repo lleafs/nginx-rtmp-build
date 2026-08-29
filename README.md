@@ -9,3 +9,5 @@ Directives in "nginx-rtmp-build\conf\nginx.conf" like location, access_log, erro
 Example:<br>
  access_log  /nginx-rtmp-build/logs/access.log;<br>
  error_log   /nginx-rtmp-build/logs/error.log debug;<br>
+<br>
+full nginx documentation can be found here: nginx-1.30.4/README.md<br>
