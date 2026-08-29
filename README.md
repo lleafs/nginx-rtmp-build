@@ -1,3 +1,4 @@
+# Main README
 This build has only been used/tested to live stream with the rtmp module and to fetch ssl certificates.<br>
 <br>
 nginx.exe can be found in "nginx-1.30.4\objs" folder and if you wish, you can add the executable to path inside environment variables by running (win+r) sysdm.cpl->advanced options<br>
@@ -10,6 +11,5 @@ Example:<br>
  access_log  /nginx-rtmp-build/logs/access.log;<br>
  error_log   /nginx-rtmp-build/logs/error.log debug;<br>
 <br>
-# Main README
 For full nginx documentation, see the [nginx-1.30.4 README](./nginx-1.30.4/README.md).
 
